@@ -1,2 +1,9 @@
+img {
+	border : 1px solid #1c1c1c;
+	border-radius: 20px;
+}
 
+#portfolio{
+	margin-left : 20px
+}
 /* Your CSS Code here. */
