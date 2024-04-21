@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<title>Bind ARIA roles to HTML tags</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARIA Roles Example</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-    </script>
-	<nav>
-		<a href= "https://github.com/hcharshal31">Github</a>
-		<a id= "portfolio" href= "https://hcharshal31.github.io/MyPortfolio/">Portfolio</a>
-	</nav><br><br>
-    <header>
-		<img src = "https://lh3.googleusercontent.com/Ryg5ih-fOWbpEGDpbJYJz5RTq3_28Tvo2h3JQRCdiz16lw5ghitDMN6hcWA57g0d6_8VOqQYcCemRBOfZGQA64ZKkFOn71zuF1LDsXwCh4ywF-_z6VqxbBqmbQvK_-PWfZcztxDd1WDTEEUHX6GdP60" alt="Monkey D. Luffy" width= 250 height= 150>
-		<h1>Harshal Chavan</h1>
-	</header>
-	<section>
-	    <ul>
-			<li>Currently working at maxval technologies</li>
-			<li>Job Role : HTML Developer</li>
-			<li>Office location : Navi Mumbai</li>
-		</ul>
-	</section>	
-</body>
 
+<header role="heading">
+    <h1>Accessible Web Example</h1>
+</header>
+
+<nav role="navigation">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <img src="example.jpg" alt="Example Image" role="img">
+    <p>A brief description about the image.</p>
+
+    <section role="list">
+        <h2>List of Items</h2>
+        <ul>
+            <li role="listitem">Item 1</li>
+            <li role="listitem">Item 2</li>
+            <li role="listitem">Item 3</li>
+        </ul>
+    </section>
+</main>
+
+</body>
 </html>
